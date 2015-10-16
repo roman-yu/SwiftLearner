@@ -222,6 +222,7 @@
 				TargetAttributes = {
 					3097AF0A1BCFBD8700286ED2 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = T9LZ379CVD;
 					};
 					3097AF1E1BCFBD8800286ED2 = {
 						CreatedOnToolsVersion = 7.0;
@@ -476,10 +477,13 @@
 			baseConfigurationReference = 9BDE6BB8E95AD1C162B8A59B /* Pods-SwiftLearner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwiftLearner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bindo.romanyu.customui.SwiftLearner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -488,10 +492,13 @@
 			baseConfigurationReference = B82753F73BFA9BB41C33111E /* Pods-SwiftLearner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwiftLearner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bindo.romanyu.customui.SwiftLearner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
