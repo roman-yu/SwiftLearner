@@ -15,6 +15,7 @@
 		3097AF241BCFBD8800286ED2 /* SwiftLearnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097AF231BCFBD8800286ED2 /* SwiftLearnerTests.swift */; };
 		3097AF2F1BCFBD8800286ED2 /* SwiftLearnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097AF2E1BCFBD8800286ED2 /* SwiftLearnerUITests.swift */; };
 		3097AF3D1BCFBE1800286ED2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097AF3C1BCFBE1800286ED2 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		30A071001BD104AB0069E653 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A070FF1BD104AB0069E653 /* Candy.swift */; settings = {ASSET_TAGS = (); }; };
 		C320BCB3723FE24C5100670A /* Pods_SwiftLearner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB2F51CDB1F1086E09DB06D /* Pods_SwiftLearner.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		3097AF2E1BCFBD8800286ED2 /* SwiftLearnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearnerUITests.swift; sourceTree = "<group>"; };
 		3097AF301BCFBD8800286ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3097AF3C1BCFBE1800286ED2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30A070FF1BD104AB0069E653 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		8DB2F51CDB1F1086E09DB06D /* Pods_SwiftLearner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLearner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDE6BB8E95AD1C162B8A59B /* Pods-SwiftLearner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLearner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLearner/Pods-SwiftLearner.debug.xcconfig"; sourceTree = "<group>"; };
 		B82753F73BFA9BB41C33111E /* Pods-SwiftLearner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLearner.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLearner/Pods-SwiftLearner.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		3097AF0D1BCFBD8700286ED2 /* SwiftLearner */ = {
 			isa = PBXGroup;
 			children = (
+				30A070FE1BD104940069E653 /* Candy */,
 				3097AF0E1BCFBD8700286ED2 /* AppDelegate.swift */,
 				3097AF101BCFBD8700286ED2 /* ViewController.swift */,
 				3097AF3C1BCFBE1800286ED2 /* Constants.swift */,
@@ -133,6 +136,14 @@
 				3097AF301BCFBD8800286ED2 /* Info.plist */,
 			);
 			path = SwiftLearnerUITests;
+			sourceTree = "<group>";
+		};
+		30A070FE1BD104940069E653 /* Candy */ = {
+			isa = PBXGroup;
+			children = (
+				30A070FF1BD104AB0069E653 /* Candy.swift */,
+			);
+			path = Candy;
 			sourceTree = "<group>";
 		};
 		32B34E9C06F2E02A82F6E119 /* Frameworks */ = {
@@ -335,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3097AF111BCFBD8700286ED2 /* ViewController.swift in Sources */,
+				30A071001BD104AB0069E653 /* Candy.swift in Sources */,
 				3097AF0F1BCFBD8700286ED2 /* AppDelegate.swift in Sources */,
 				3097AF3D1BCFBE1800286ED2 /* Constants.swift in Sources */,
 			);
